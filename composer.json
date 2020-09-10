@@ -1,0 +1,31 @@
+{
+    "name": "04007.cn/normal_api",
+    "description": "The Kermit Normal Framework.",
+    "require": {
+         "phpoffice/phpexcel": "1.8.2",
+         "catfan/medoo": "v1.7.10",
+         "psr/simple-cache": "1.0.1",
+         "pda/pheanstalk":"v3.2.1",
+         "hashids/hashids":"2.0.4",
+         "phpoffice/phpspreadsheet":"1.8.2",
+         "psr/log": "~1.0",
+         "elasticsearch/elasticsearch": "~6.0"
+    },
+    "autoload": {
+        "files": [
+            "conf/Config.php",
+            "conf/Baseset.php"
+            ],
+        "psr-4": {
+            "app\\": "app/",
+            "lib\\": "lib/"
+        }
+    },
+
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
