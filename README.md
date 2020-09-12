@@ -12,7 +12,6 @@ ApiFrame一个基于php7的快速、精简服务端Api接口开发框架，在�
 <img src="https://github.com/KermitCode/apiframe-php7-framework/blob/master/%E6%A1%86%E6%9E%B6%E7%9B%AE%E5%BD%95%E4%BB%8B%E7%BB%8D.png?raw=true">
 nginx配置文件见代码根目录中相关nginx文件，URL中请求地址：http://api.04007.cn/?appid=1001&sign=areqrewqrewrew&timestamp=12312 返回json数据示例：
 <img src="https://github.com/KermitCode/apiframe-php7-framework/blob/master/json%E5%93%8D%E5%BA%94.jpg?raw=true">
-
 简单后台的登录界面：http://api.04007.cn/admin/login?logout=yes 截图如下：
 <img src="https://github.com/KermitCode/apiframe-php7-framework/blob/master/apiFrame%E7%AE%80%E5%8D%95%E5%90%8E%E5%8F%B0-%E7%99%BB%E5%BD%95.jpg?raw=true">
 后台登录之后的页面示例：
